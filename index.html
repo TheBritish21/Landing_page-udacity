@@ -1,0 +1,115 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Landing Page </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+
+    <!-- first section starts -------------------------->
+      <section id="section1" data-nav="Section 1" class="your-active-class">
+        <div class="landing__container">
+          <h2>Section 1</h2>
+          <p>Sugar plum danish caramels chocolate cake tiramisu carrot cake oat cake shortbread.
+            Brownie jelly beans halvah lollipop sweet roll halvah gingerbread wafer chocolate bar. 
+            Biscuit tiramisu donut lemon drops dessert. Bear claw shortbread apple pie wafer caramels. Chocolate chocolate cake caramels cupcake jelly sweet roll gummi bears caramels dragée. 
+            Wafer chocolate cake soufflé powder jelly beans jelly beans pastry. 
+            Sesame snaps jujubes carrot cake apple pie ice cream sweet roll jelly. 
+            Tiramisu bonbon pudding wafer pastry marshmallow halvah. Biscuit sesame snaps toffee tootsie roll chocolate bar sweet roll sweet roll marshmallow. 
+            Icing topping cheesecake powder dragée donut.
+          </p>
+
+          <p>Bonbon muffin sesame snaps caramels brownie candy shortbread cookie. 
+            Lollipop donut cookie jujubes gummies sweet roll biscuit chupa chups pudding.
+          </p>
+
+        </div>
+      </section>
+    <!-- first section ends ---->
+
+    <!-- second section starts -------------------------->
+
+      <section id="section2" data-nav="Section 2">
+        <div class="landing__container">
+          <h2>Section 2</h2>
+          <p>Macaroon sesame snaps caramels cheesecake topping gingerbread marshmallow. Tart sweet wafer sweet cupcake gummi bears.
+            Bonbon cupcake marshmallow carrot cake cupcake. Topping dragée tart bear claw marzipan croissant. Candy muffin fruitcake dragée danish sweet. 
+            Bear claw bear claw icing pudding dessert ice cream bear claw. Cake tiramisu muffin carrot cake dragée chocolate cake powder gingerbread. 
+            Shortbread lollipop dragée chocolate cake pudding cheesecake wafer cheesecake caramels.
+              Muffin sesame snaps croissant jelly jujubes chocolate cake.</p>
+
+          <p>Macaroon chupa chups bonbon candy biscuit toffee apple pie lemon drops shortbread. Soufflé gummi bears jelly beans bonbon tiramisu. 
+            Sugar plum chocolate wafer chocolate cake jujubes croissant jelly. Topping halvah soufflé wafer chocolate dessert halvah.</p>
+        </div>
+      </section>
+    <!-- second section ends ---->
+    
+    <!-- Third section starts --------------------------->
+
+      <section id="section3" data-nav="Section 3">
+        <div class="landing__container">
+          <h2>Section 3</h2>
+          <p>Toffee donut gummi bears lollipop candy canes cake sesame snaps. Icing cupcake toffee shortbread marzipan topping.
+            Cookie chupa chups pudding toffee lollipop marshmallow.
+            Sesame snaps oat cake gummi bears marzipan ice cream powder chocolate ice cream cake. 
+            Marshmallow liquorice halvah candy canes gummies. Topping wafer tiramisu muffin cake. Cheesecake jelly gummi bears fruitcake dragée croissant pastry. 
+            Apple pie macaroon tiramisu tiramisu dragée. 
+            Cotton candy dessert tiramisu shortbread sweet roll bear claw jelly-o candy.</p>
+
+          <p>Sugar plum pastry cheesecake chocolate bar pudding. Gingerbread sugar plum dragée dessert cookie sweet roll. 
+            Halvah gummi bears topping pudding liquorice ice cream cookie.
+            Tiramisu oat cake dragée pudding chocolate cake pudding sesame snaps chocolate bar donut.</p>
+        </div>
+      </section>
+    <!-- third section ends ---->  
+
+    <!-- fourth section starts --------------------------->
+      <section id="section4" data-nav="Section 4">
+        <div class="landing__container">
+          <h2>Section 4</h2>
+          <p>Sugar plum danish caramels chocolate cake tiramisu carrot cake oat cake shortbread.
+            Brownie jelly beans halvah lollipop sweet roll halvah gingerbread wafer chocolate bar. 
+            Biscuit tiramisu donut lemon drops dessert. Bear claw shortbread apple pie wafer caramels. Chocolate chocolate cake caramels cupcake jelly sweet roll gummi bears caramels dragée. 
+            Wafer chocolate cake soufflé powder jelly beans jelly beans pastry. 
+            Sesame snaps jujubes carrot cake apple pie ice cream sweet roll jelly. 
+            Tiramisu bonbon pudding wafer pastry marshmallow halvah. Biscuit sesame snaps toffee tootsie roll chocolate bar sweet roll sweet roll marshmallow. Icing topping cheesecake powder dragée donut.</p>
+
+          <p>Bonbon muffin sesame snaps caramels brownie candy shortbread cookie. Lollipop donut cookie jujubes gummies sweet roll biscuit chupa chups pudding.</p>
+        </div>
+      </section>
+    <!-- fourth section ends ---->
+
+  </main>
+
+  <!-- footer starts ------------------------------------>
+    <footer class="page__footer">
+      <p>&copy Udacity</p>
+    </footer>
+  <!-- footer ends ---->
+
+  <!-- link Java Script file ---------------------------->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
