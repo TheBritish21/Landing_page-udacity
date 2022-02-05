@@ -6,6 +6,12 @@ A landing page built dynamically using HTML, CSS, JavaScript.
 ### Author:
 Ahmed Tarek Ebn Zeyad.
 
-### Tools: HTML, CSS, JS.
+### Tools:
+1. HTML
+2. CSS
+3. JavaScript
 
-### Recourses reviewd: Udacity classroom, MDN, w3school.
+### Recourses reviewd: 
+1. Udacity classroom 
+2. MDN 
+3. w3school
